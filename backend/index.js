@@ -9,7 +9,7 @@ require("dotenv").config();
 
 app.use(
   cors({
-    origin: "http://localhost:5173", // your frontend url
+    origin: "https://mern-auth-frontend-swq3.onrender.com", // your frontend url
     credentials: true,
   })
 );
